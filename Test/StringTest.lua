@@ -1,3 +1,4 @@
+-- 字符串拼接执行时间测试
 local count = arg[1]
 local time = os.clock()
 for i = 1, count do
