@@ -1,2 +1,4 @@
-local a, b = math.modf(arg[1])
-print(a, b)
+local a = 1
+local b = 2
+local c = a>b and a or b
+print(c)
