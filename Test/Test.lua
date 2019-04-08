@@ -1,4 +1,2 @@
-local a = 1
-local b = 2
-local c = a>b and a or b
-print(c)
+require("..\\Tool\\Timer")
+
