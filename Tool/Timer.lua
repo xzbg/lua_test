@@ -39,6 +39,7 @@ function Timer:Stop()
     self.active = false
 end
 
+--[[ example
 local timer =
     Timer:new(
     nil,
@@ -49,3 +50,4 @@ local timer =
     5
 )
 timer:Start()
+]]
